@@ -1,8 +1,20 @@
 # AI Improver
 
+[![GitHub Release](https://img.shields.io/badge/release-v0.1.0-blue)](https://github.com/fshryang/ai-improver/releases/tag/v0.1.0)
+[![Downloads](https://img.shields.io/github/downloads/fshryang/ai-improver/latest/total)](https://github.com/fshryang/ai-improver/releases)
+
 A Windows desktop app that watches your clipboard and instantly applies AI-powered editing rules to any text you copy. Inspired by Grammarly, but with a **no-AI-slop** prompt baked in — it cuts filler, removes em-dash abuse, and preserves your voice.
 
 Built with **PySide6** (Qt) + provider-agnostic HTTP calls.
+
+## Quick Install (click to download)
+
+👉 **[AI-Improver.exe](https://github.com/fshryang/ai-improver/releases/download/v0.1.0/AI-Improver.exe)** — Windows 10/11 x64, no install needed
+
+1. Download the `.exe` from the [Releases page](https://github.com/fshryang/ai-improver/releases)
+2. Double-click to run (Windows may show a SmartScreen warning — click **More info → Run anyway**)
+3. Right-click the ✦ tray icon → **Settings…** → paste your API key → **Save**
+4. Start using it. That's it.
 
 ## Features
 
