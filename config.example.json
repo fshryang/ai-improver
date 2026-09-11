@@ -1,0 +1,26 @@
+﻿{
+  "active_provider": "deepseek",
+  "providers": {
+    "deepseek": {
+      "api_key": "",
+      "model": "deepseek-v4-flash",
+      "base_url": "https://api.deepseek.com/v1"
+    },
+    "openai": {
+      "api_key": "",
+      "model": "gpt-4o-mini",
+      "base_url": "https://api.openai.com/v1"
+    },
+    "anthropic": {
+      "api_key": "",
+      "model": "claude-3-5-haiku-latest",
+      "base_url": "https://api.anthropic.com"
+    },
+    "local": {
+      "base_url": "http://localhost:11434",
+      "model": "llama3.1:8b"
+    }
+  },
+  "mode": "improve",
+  "min_text_length": 12
+}
